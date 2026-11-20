@@ -41,7 +41,7 @@ Download [`ESP32-S3-Touch-LCD-1.46_FactoryOnly_20261119.bin`](firmware/ESP32-S3-
 | Framework | Version | Projects |
 | --- | --- | ---: |
 | ESP-IDF factory firmware | v5.4.x | 1 |
-| Arduino-ESP32 | 3.3.11 | 1 |
+| Arduino-ESP32 | 3.1.1 | 1 |
 
 ## 📚 Resources
 
@@ -56,6 +56,7 @@ Download [`ESP32-S3-Touch-LCD-1.46_FactoryOnly_20261119.bin`](firmware/ESP32-S3-
 ## 📄 License
 
 License information is provided by the source components.
+
 
 
 

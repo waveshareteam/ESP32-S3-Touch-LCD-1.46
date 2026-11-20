@@ -11,10 +11,10 @@
     ]
   },
   "factory_firmware": {
-    "esp_idf": "v5.4.0"
+    "esp_idf": "v5.4.4"
   },
   "arduino": {
-    "core": "3.3.11",
+    "core": "3.1.1",
     "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=opi,FlashMode=qio,PartitionScheme=app3M_fat9M_16MB,USBMode=hwcdc,CDCOnBoot=cdc"
   }
 }
