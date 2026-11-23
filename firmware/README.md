@@ -2,18 +2,15 @@
 
 [English](README.md) | [简体中文](README_ZH.md)
 
-Ready-to-flash firmware tested on the ESP32-S3-Touch-LCD-1.46 board. Each file is a merged image flashed at `0x0`; the date in the file name is its version. Older versions remain available.
+Ready-to-flash factory firmware for the ESP32-S3-Touch-LCD-1.46 series. This image applies to ESP32-S3-Touch-LCD-1.46, ESP32-S3-Touch-LCD-1.46B, and ESP32-S3-Touch-LCD-1.46C because the variants share the same base board and display compatibility.
 
 | File | Purpose |
 | --- | --- |
-| `ESP32-S3-Touch-LCD-1.46_FactoryOnly_20261119.bin` | Factory firmware that restores the out-of-box demonstration |
+| [ESP32-S3-Touch-LCD-1.46_FactoryOnly_20261119.bin](ESP32-S3-Touch-LCD-1.46_FactoryOnly_20261119.bin) | Factory recovery firmware for the ESP32-S3-Touch-LCD-1.46 series |
 
-Flash with esptool:
+Install esptool with `python -m pip install esptool`, erase the flash, then write the image at `0x0`.
 
 ```bash
-python -m pip install esptool
-esptool.py --chip esp32s3 --port <PORT> erase_flash
-esptool.py --chip esp32s3 --port <PORT> write_flash 0x0 ESP32-S3-Touch-LCD-1.46_FactoryOnly_20261119.bin
+python -m esptool --chip esp32s3 --port <PORT> erase_flash
+python -m esptool --chip esp32s3 --port <PORT> write_flash 0x0 ESP32-S3-Touch-LCD-1.46_FactoryOnly_20261119.bin
 ```
-
-The factory firmware source is in [`examples/factory`](../examples/factory/).
