@@ -3,7 +3,7 @@
   <p><a href="README_ZH.md">简体中文</a></p>
   <p><a href="https://github.com/waveshareteam/ESP32-S3-Touch-LCD-1.46/actions/workflows/build.yml"><img alt="Build" src="https://github.com/waveshareteam/ESP32-S3-Touch-LCD-1.46/actions/workflows/build.yml/badge.svg"></a></p>
   <p><a href="https://www.waveshare.com/esp32-s3-touch-lcd-1.46.htm">Product</a> · <a href="firmware/README.md">Firmware</a> · <a href="examples/esp-idf/">ESP-IDF</a> · <a href="examples/arduino/examples/">Arduino</a> · <a href="https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-1.46">Wiki</a></p>
-  <p><img src="https://www.waveshare.com/media/catalog/product/e/s/esp32-s3-touch-lcd-1.46-1.jpg" alt="ESP32-S3-Touch-LCD-1.46" width="500"></p>
+  <p><img src="docs/images/ESP32-S3-Touch-LCD-1.46.jpg" alt="ESP32-S3-Touch-LCD-1.46" width="500"></p>
 </div>
 
 ## ✨ Overview
