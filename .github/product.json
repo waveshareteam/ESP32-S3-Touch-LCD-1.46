@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/waveshareteam/esp32-repo-template/v1/schema/product.schema.json",
+  "product": "ESP32-S3-Touch-LCD-1.46",
+  "product_url": "https://www.waveshare.com/esp32-s3-touch-lcd-1.46.htm",
+  "tier": 0,
+  "target": "esp32s3",
+  "esp_idf": {
+    "versions": [
+      "v5.3.2"
+    ]
+  },
+  "arduino": {
+    "core": "3.1.1",
+    "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=opi,PartitionScheme=esp_sr_16"
+  }
+}
